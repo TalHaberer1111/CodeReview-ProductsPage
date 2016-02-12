@@ -4,3 +4,174 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+}
+
+@font-face{
+  font-family : "Cinzel-Bold";
+
+  src : url('Cinzel-Bold.otf');
+  src : url('Cinzel-Bold.otf') format('truetype');
+}
+
+body {
+  background: url(../images/whiteback.jpg);
+  background-repeat: no-repeat;
+  font-family: Cinzel-Bold;
+}
+
+.nav {
+  /*border: 2px solid black;*/
+  border-radius: 30px;
+  padding-top: 20px;
+  background: url(../images/glass.png);
+  background-size: cover;
+}
+
+.main h1 {
+  text-align: center;
+  text-shadow: 6px 6px 6px gray;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.main h2 {
+  text-align: center;
+  text-shadow: 3px 3px white;
+}
+
+.main img {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}
+
+.main {
+  padding-bottom: 100px;
+}
+
+.nav img {
+  width: 250px;
+  height: 140px;
+  float: left;
+  padding-bottom: 15px;
+}
+.nav h2 {
+  float: right;
+  padding-right: 30px;
+  margin-top: 40px;
+  text-shadow: 2px 3px 3px white;
+}
+
+.nav a {
+  float:right;
+  margin-top: 50px;
+  padding-right: 30px;
+  color: white;
+}
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.bottomPanel img {
+  width: 200px;
+  height: 250px;
+
+}
+
+.footer {
+  color: white;
+  font-size: 20px;
+  text-shadow: 4px 4px 2px #aeb8bf;
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+  background: url(../images/glass.png);
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.bottomPanel {
+  margin: auto;;
+}
+
+.order {
+color: white;
+font-size: 18px;
+text-align: center;
+background-color: #115789;
+border: 4px 4px 4px black;
+border-radius: 10px;
+min-width: 200px;
+max-width: 200px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 15px;
+padding-bottom: 12px;
+}
+
+.order a {
+  color: white;
+}
+
+.columns {
+  box-shadow: 20px gray;
+  margin-left: 35px;
+  float: left;
+  text-align: center;
+  width: 30%;
+  height:auto;
+}
+.columns2 {
+  margin: 45px;
+  padding: 30px;
+  float: right;
+  margin-right: 35px;
+  text-align: center;
+  width: 50%;
+  height:auto;
+}
+table {
+  border: 10px solid black;
+}
+
+.Par {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  width: 400px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+td:nth-child(2n+2) {
+  color: red;
+}
+
+th:nth-child(odd) {
+  color: red;
+}
+.bottomPanel {
+  padding-top: 100px;
+  border: 6px solid gray;
+  padding-bottom: 100px;
+}
+
+.eye {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 500px;
+  left: 700px;
+}
+.footer a {
+  font-size: 40px;
+  color: white;
+}
